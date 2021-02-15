@@ -69,7 +69,7 @@ h2{
     box-shadow: 3px 3px #687c84;
      
  }
- .pattern:hover{
+ .pattern:active{
      display: none;
  }
  footer h3{
