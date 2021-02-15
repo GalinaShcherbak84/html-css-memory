@@ -7,10 +7,69 @@ body{
     background-color: #add8e6;
     font-family: 'Nerko One', cursive;
     text-align: center;
+    
 }
 h1{
     color:white;
-    font-size: 100px;
+    font-size: 80px;
     text-transform: uppercase;
     text-shadow: 2px 2px #687c84;
+    margin:30px 0;
 }
+h2{
+    color:#e67919;
+    font-size: 40px;
+    
+}
+
+ main{
+     width: 800px;
+     height: 1000px;
+     background-color: ivory;
+     margin:0 auto;
+     position: relative;
+
+ }
+ /* contenettore slide */
+ .container_slide{
+    
+    width: 22%;
+    height: 22%;
+    border-radius: 30px;
+    box-shadow: 3px 3px #687c84;
+    
+ }
+ .slide{
+     width: 100%;
+     height: 100%;
+     
+ }
+ .cont_img{
+     width: 80%;
+     height: 70%;
+     background-image: url(./memory-assets/img/noun_Bicycle_3134821.png);
+     background-position: center;
+     background-size: cover;
+     margin:0 10%;
+   
+ }
+ .title{
+     height: 30%;
+     margin:0 10%;
+     vertical-align: middle;
+ }
+ .hover{
+    width: 22%;
+    height: 22%;
+    background-image: url(./memory-assets/img/pattern.png);
+    background-size: 80%;
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius: 30px;
+    box-shadow: 3px 3px #687c84;
+
+ }
+ .hover:hover{
+     display: none;
+ }
