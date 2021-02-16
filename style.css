@@ -19,7 +19,11 @@ h1{
 h2{
     color:#e67919;
     font-size: 30px;
+    padding-top: 20px;
     
+}
+.open{
+    color:purple;
 }
 
  main{
@@ -37,9 +41,11 @@ h2{
  .card{
     width: 22%;
     height: 30%;
+    background-color: white;
     position: relative;
     float: left;
     margin: 0 4% 5% 0;
+    padding: 20px;
     border-radius: 30px;
     box-shadow: 3px 3px #687c84;
 }
@@ -68,6 +74,9 @@ h2{
      border-radius: 30px;
     box-shadow: 3px 3px #687c84;
      
+ }
+ .overlay{
+     display: none;
  }
  .pattern:active{
      display: none;
