@@ -13,7 +13,7 @@ h1{
     color:white;
     font-size: 80px;
     text-transform: uppercase;
-    text-shadow: 2px 2px 2px #687c84;
+    text-shadow: 3px 3px 8px #687c84;
     margin:30px 0;
 }
 h2{
@@ -72,7 +72,7 @@ h2{
      top:0;
      left:0;
      border-radius: 30px;
-    box-shadow: 3px 3px #687c84;
+    box-shadow: 3px 3px 8px #687c84;
      
  }
  .overlay{
